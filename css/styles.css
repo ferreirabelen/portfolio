@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(
+        35deg,
+        #e8cbc0,
+        #636faA
+    );
+    /* background: linear-gradient(
+        35deg,
+        
+        #7b65b9,
+        #f3c8da
+    ); */
+
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+}
+
+header nav ul li a:hover{
+    background-color: rgb(168, 101, 255);
+}
+
+.inicio{
+    padding: 300px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding:30px;
+    padding-top:40px;
+    color: rgb(243, 243, 243);
+}
+
+.proyectos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+section article a img{
+    width: 550px;
+    height: 350px;
+    padding: 20px;
+}
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div img{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    padding:15px;
+}
+
+.html:hover{
+    background-color: rgb(247, 115, 7);
+
+}
+
+.css:hover{
+    background-color: blue;
+}
+
+.js:hover{
+    background-color: rgb(249, 253, 15);
+}
+
+.sass:hover{
+    background-color: rgb(253, 115, 161);
+}
+
+.git:hover{
+    background-color: rgb(247, 115, 7);
+}
+
+
+
+footer{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+footer h4{
+    font-size: 30px;
+    padding:20px;
+    color:white;
+}
+
+footer div a img{
+    width: 85px;
+    height: 90px;
+}
+
+footer div img:hover{
+    background-color: rgb(209, 201, 201);
+}
+
+
